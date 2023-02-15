@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+   color: white;
+   height: 100vh;
+   background-image:url(/IMAGE/indústria-4.0.jpeg);
+}
+
+header{
+    background-color: grey;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0px 3px 5px rgb(138, 31, 31);
+    
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 20px;
+}
+header li{
+    transition: 0.3s;
+}
+
+header li:hover{
+    font-size: 20px;
+}
+
+main{
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 90px;
+   
+}
+.inicio{
+    padding-bottom: 90px;
+}
+
+#button{
+    background-color: red;
+    height: 60px;
+    width: 160px;
+    border-radius: 4%;
+    font-size:medium;
+    font-weight: bold;
+    color: white;
+    
+}
+#button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+
+.logo{
+    align-items: center;
+    height: 70px;
+    padding-left: 100px;
+    padding-bottom: 90px;
+}
+
+footer{
+    background-color: grey;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0px 3px 5px rgb(138, 31, 31);
+}
+
+    
